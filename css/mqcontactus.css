@@ -1,0 +1,147 @@
+@media screen and (min-width:768px) and (max-width: 1024px){
+    .title-contactUs h1{
+        font-size: 45px;
+
+    }
+    .title-contactUs small{
+        font-size: 25px;
+
+    }
+  .border{
+       position: relative;
+       right: 40px;
+   }
+ 
+   .text-contactU p{
+      font-size: 30px;
+     
+     width:90%;
+     margin-left: 5px;
+   }
+
+   .text-contactU h1{
+    font-size: 40px;
+   }
+ 
+ section{
+    flex-wrap: wrap;
+ }
+ .Schedule-btn{
+    position: relative;
+    right: 90px;
+ }
+
+ .title-forms{
+    font-size: 55px;
+    margin-right: 85px;
+ }
+ form{
+   margin-left: 125px;
+   flex-wrap: wrap;
+ }
+ .input-box input{
+    font-size: 25px;
+ }
+
+ .input-box textarea{
+    font-size: 25px;
+   
+ }
+ .Schedule-btn button a{
+    font-size: 25px;
+ }
+ 
+ .input-box textarea{
+   width: 640px;
+ }
+
+ aside{
+    margin-top: 25px; 
+    font-size: 35px;
+ }
+
+ .call-btn button a{
+font-size: 30px;
+ }
+ #footer_content {
+   grid-template-columns: repeat(2, 1fr);
+   gap: 2rem;
+ }
+ }
+  
+ 
+ 
+ 
+ @media screen and (min-width:320px) and (max-width: 767px){
+ 
+    .title-contactUs h1{
+        font-size: 35px;
+        margin-left: 35px;
+
+    }
+    .title-contactUs small{
+        font-size: 20px;
+        padding-left: 5px;
+
+    }
+  .border{
+       position: relative;
+       right: 5px;
+   }
+ 
+   .text-contactU p{
+      font-size: 20px;
+     
+     width:90%;
+     margin-left: 5px;
+   }
+
+   .text-contactU h1{
+    font-size: 30px;
+    margin-left: 40px;
+   }
+ 
+ section{
+    flex-wrap: wrap;
+ }
+ .Schedule-btn{
+    position: relative;
+    right: 60px;
+ }
+
+ .title-forms{
+    font-size: 25px;
+    margin-right: 285px;
+ }
+ form{
+   margin-left: 285px;
+   flex-wrap: wrap;
+ }
+ .input-box input{
+    font-size: 13px;
+ }
+
+ .input-box textarea{
+    font-size: 13px;
+   
+ }
+ .Schedule-btn button a{
+    font-size: 15px;
+ }
+ 
+ .input-box textarea{
+   width: 640px;
+ }
+
+ aside{
+    margin-top: 55px; 
+    font-size: 25px;
+    margin-left: 55px;
+ }
+
+ .call-btn button a{
+font-size: 20px;
+ }
+ 
+
+ }

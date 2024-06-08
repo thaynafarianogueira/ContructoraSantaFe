@@ -1,0 +1,176 @@
+@media screen and (min-width:768px) and (max-width: 1024px){
+    .title-services-outdoors h1{
+      font-size: 50px;
+    }
+
+    .title-services-outdoors small{
+      font-size: 30px;
+    }
+
+
+  .border{
+       position: relative;
+       right: 40px;
+   }
+ 
+   .text-project-kitchen {
+      font-size: 25px;
+     
+     width:97%;
+     margin-left: 35px;
+   }
+ main{
+   
+   width: 100%;
+  
+ }
+ 
+ p{
+ width: 90%;
+ margin-top: 8px;
+ 
+ }
+
+ .more-project a{
+  font-size: 30px;
+ }
+ 
+ form{
+   flex-wrap: wrap;
+ }
+ 
+ .Schedule-btn button{
+   margin-left: 200px;
+ }
+ 
+ .input-box textarea{
+   width: 530px;
+ }
+ #footer_content {
+   grid-template-columns: repeat(2, 1fr);
+   gap: 2rem;
+ }
+ }
+  
+ 
+ 
+ 
+ @media screen and (min-width:320px) and (max-width: 767px){
+ 
+   .logo-header{
+     width:95%;
+   }   
+ 
+ 
+   #text-header h1 {
+     font-size: 1.2rem;
+     
+   }
+   .title-services-outdoors h1{
+    font-size: 35px;
+    margin-left: 5px;
+  }
+
+  .title-services-outdoors small{
+    font-size: 20px;
+    margin-right: 5px;
+  }
+
+
+.border{
+     position: relative;
+     right: 40px;
+ }
+
+ .text-project-roof{
+    margin-left: 25px;
+ }
+ 
+ .kitchen-title {
+    font-size: 35px;
+     margin-right: 50px;
+ }
+ .bathroom-title{
+    font-size: 35px;
+    margin-right: 50px;
+
+ }
+
+ .more-project{
+  margin-right: 5px;
+ }
+
+ .border-line{
+    margin-left: 5px;
+
+ }
+ 
+ main{
+ 
+ width: 100%;
+ margin-left: 25px;
+ 
+ }
+ 
+ p{
+ width: 85%;
+ margin-top: 8px;
+ 
+ }
+ 
+ .kitchen-images{
+     width: 76%;
+ }
+ .bathroom-images{
+  width: 70%;
+ }
+ 
+ #btn-backto-top{
+     margin-right: 105px;
+ }
+ 
+ hr{
+     margin-right: 75px;
+ }
+ .title-forms{
+     margin-right: 35px;
+ }
+ form{
+ flex-wrap: wrap;
+ margin-right: 20px;
+ }
+ .group-box-one .name-address{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ 
+ .Schedule-btn button{
+ margin-left: 15px;
+ width: 250px;
+ }
+ 
+ #msg{
+ width: 260px;
+ margin-left: 5px;
+ }
+ .Schedule-btn-one button {
+     width: 250px;
+     margin-right: 5px;
+ }
+ .number-email{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ .group-box-two textarea{
+   margin-right: 5px;
+ 
+ }
+ 
+ .more-project-kitchen{
+     margin-right: 55px;
+ }
+ 
+
+ }

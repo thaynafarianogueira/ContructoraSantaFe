@@ -1,0 +1,433 @@
+@media screen and (min-width:768px) and (max-width: 1024px) {
+
+  #text-header h1 {
+    font-size: 45px;
+    margin-bottom: 15px;
+  }
+
+  #text-header small {
+    font-size: 25px;
+  }
+
+  .border {
+    position: relative;
+    right: 40px;
+  }
+
+  #btn-quote-header a {
+    font-size: 20px;
+  }
+
+  #btn-project-header {
+    font-size: 20px;
+
+  }
+
+  .title-forms {
+    font-size: 35px;
+  }
+
+  .input-box input {
+    font-size: 25px;
+  }
+
+  .input-box textarea {
+    font-size: 25px;
+  }
+
+  .Schedule-btn-one a {
+    font-size: 25px;
+  }
+
+  .Schedule-btn a {
+    font-size: 25px;
+  }
+
+  .border {
+    position: relative;
+    left: 50px;
+  }
+
+  .title-services h1 {
+    font-size: 45px;
+    margin-top: 25px;
+    position: relative;
+    left: 52px;
+
+  }
+
+  .title-services small {
+    font-size: 25px;
+    padding-left: 1px;
+    position: relative;
+    left: 72px;
+
+  }
+
+  .text-project-residencial p {
+    font-size: 25px;
+    width: 100%;
+  }
+
+  .btn-home {
+    flex-wrap: wrap;
+    position: relative;
+    left: 50px;
+  }
+
+  .more-project a {
+    font-size: 25px;
+  }
+
+  .title-services-home h1 {
+    font-size: 45px;
+    margin-right: 65px;
+  }
+
+  .border-home {
+    position: relative;
+    right: 25px;
+  }
+
+  .text-service-home p {
+    font-size: 30px;
+    margin-left: 25px;
+  }
+
+  #cards-about-us {
+    flex-wrap: wrap;
+  }
+
+  .card-three {
+    margin-top: 25px;
+  }
+
+  .btn-aboutUs-processes a {
+    font-size: 30px;
+  }
+
+  .title-showcasing img {
+    position: relative;
+    right: 75px;
+  }
+
+  .content-title h1 {
+    position: relative;
+    right: 65px;
+  }
+
+  .content-title small {
+    position: relative;
+    right: 65px;
+  }
+
+  .text-project-showcasing {
+    font-size: 25px;
+    margin-left: 35px;
+  }
+
+  .viewProjects {
+    position: relative;
+    top: 155px;
+  }
+
+  .testimonials {
+    position: relative;
+    top: 155px;
+  }
+
+  .client-testimonials {
+    position: relative;
+    top: 155px;
+
+  }
+
+  .card-content-testimonials {
+    margin-top: 15px;
+  }
+
+  footer {
+    position: relative;
+    top: 155px;
+
+  }
+
+  form {
+    flex-wrap: wrap;
+  }
+
+  .Schedule-btn button {
+    margin-left: 200px;
+  }
+
+  .input-box textarea {
+    width: 530px;
+  }
+
+  #footer_content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+
+
+
+@media screen and (min-width:320px) and (max-width: 767px) {
+
+  #text-header h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+
+  #text-header small {
+    font-size: 15px;
+  }
+
+  .border {
+    position: relative;
+    right: 40px;
+  }
+
+  #btn-quote-header a {
+    font-size: 15px;
+  }
+
+  #btn-project-header {
+    font-size: 15px;
+
+  }
+
+  .title-forms {
+    font-size: 25px;
+    margin-left: 75px;
+  }
+
+  .title-services .border {
+    position: relative;
+    right: 180px;
+
+  }
+
+  .title-services h1 {
+    font-size: 35px;
+    margin-top: 25px;
+    position: relative;
+    right: 175px;
+
+  }
+
+  .title-services small {
+    font-size: 15px;
+    padding-left: 1px;
+    position: relative;
+    right: 172px;
+
+  }
+
+  .text-project-residencial p {
+    font-size: 20px;
+    width: 90%;
+    margin-left: 20px;
+  }
+
+  .btn-home {
+    flex-wrap: wrap;
+    position: relative;
+    right: 80px;
+  }
+
+  .btn-home a {
+    font-size: 25px;
+  }
+
+
+  .title-services-home h1 {
+    font-size: 25px;
+    margin-right: 85px;
+
+
+  }
+
+  .border-home {
+    position: relative;
+    right: 45px;
+  }
+
+  .text-service-home p {
+    font-size: 25px;
+    margin-left: 25px;
+  }
+
+  #cards-about-us {
+    flex-wrap: wrap;
+  }
+
+  .card-two {
+    margin-top: 15px;
+
+  }
+
+  .card-three {
+    margin-top: 25px;
+  }
+
+  .btn-aboutUs-processes a {
+    font-size: 30px;
+  }
+
+  .title-showcasing img {
+    position: relative;
+    right: 225px;
+  }
+
+  .content-title h1 {
+    font-size: 35px;
+    position: relative;
+    right: 215px;
+  }
+
+  .content-title small {
+    padding-left: 1px;
+    position: relative;
+    right: 200px;
+  }
+
+  .text-project-showcasing {
+    font-size: 25px;
+    margin-left: 35px;
+  }
+
+  .viewProjects {
+    position: relative;
+    top: 405px;
+  }
+
+  .testimonials {
+    position: relative;
+    top: 395px;
+  }
+
+  .header-testimonials h1 {
+    font-size: 35px;
+    position: relative;
+    left: 45px;
+  }
+
+  .header-testimonials small {
+    font-size: 25px;
+    position: relative;
+    left: 25px;
+  }
+
+  .client-testimonials {
+    position: relative;
+    top: 330px;
+
+  }
+
+  .card-content-testimonials {
+    margin-top: 15px;
+  }
+
+  .card-testimonials {
+    margin-top: 25px;
+  }
+
+  footer {
+    position: relative;
+    top: 405px;
+
+  }
+
+  .border {
+    right: 40px;
+  }
+
+
+  .logo-header {
+    width: 95%;
+  }
+
+
+  #text-header h1 {
+    font-size: 1.2rem;
+
+  }
+
+  main {
+
+    width: 100%;
+    margin-left: 25px;
+
+  }
+
+  p {
+    width: 85%;
+    margin-top: 8px;
+
+  }
+
+  .kitchen-images {
+    width: 65%;
+  }
+
+  #btn-backto-top {
+    margin-right: 105px;
+  }
+
+  hr {
+    margin-right: 75px;
+  }
+
+  .title-forms {
+    margin-right: 85px;
+  }
+
+  form {
+    flex-wrap: wrap;
+    margin-left: 1px;
+  }
+
+  .group-box-one .name-address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Schedule-btn button {
+    margin-left: 15px;
+    width: 250px;
+  }
+
+  #msg {
+    width: 260px;
+    margin-left: 5px;
+  }
+
+  .Schedule-btn-one button {
+    width: 250px;
+    margin-right: 5px;
+  }
+
+  .number-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .group-box-two textarea {
+    margin-right: 5px;
+
+  }
+
+  .more-project-kitchen {
+    margin-right: 55px;
+  }
+
+  .border-line {
+    margin-right: 55px;
+  }
+
+
+}

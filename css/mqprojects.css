@@ -1,0 +1,197 @@
+@media screen and (min-width:768px) and (max-width: 1024px){
+    
+    #text-header{
+        font-size: 25px;
+    }
+
+    #btn-quote-header a{
+        font-size: 25px;
+
+    }
+    #btn-project-header{
+        font-size: 25px;
+    }
+   
+
+    .title-project small{
+      font-size: 25px;
+    }
+
+
+  .border{
+       position: relative;
+       right: 20px;
+   }
+ 
+   .text-project-one {
+      font-size: 35px;
+     
+     width:97%;
+     margin-left: 35px;
+   }
+   .text-project p{
+    font-size: 35px;
+   }
+   .LastestProject{
+    font-size: 55px;
+    margin: 50px;
+   }
+
+  .first-collum{
+   width: 100%;
+   }
+ main{
+   
+   width: 100%;
+  
+ }
+ 
+ p{
+ width: 90%;
+ margin-top: 8px;
+ 
+ }
+
+ .more-project a{
+  font-size: 30px;
+ }
+ 
+ form{
+   flex-wrap: wrap;
+ }
+ 
+ .Schedule-btn button{
+   margin-left: 200px;
+ }
+ 
+ .input-box textarea{
+   width: 530px;
+ }
+ #footer_content {
+   grid-template-columns: repeat(2, 1fr);
+   gap: 2rem;
+ }
+ }
+  
+ 
+ 
+ 
+ @media screen and (min-width:320px) and (max-width: 767px){
+ 
+   .logo-header{
+     width:95%;
+   }   
+ 
+ 
+   #text-header h1 {
+     font-size: 1.2rem;
+     
+   }
+   .title-project h1{
+    font-size: 25px;
+  }
+   .title-project small{
+    font-size: 17px;
+  }
+
+  .border{
+       position: relative;
+       right: 10px;
+   }
+
+   .text-project-one {
+    font-size: 22px;
+   
+   width:97%;
+   margin-left: 35px;
+ }
+ .title-remodeling{
+   position: relative;
+   right: 160px;
+
+ }
+
+ .kitchen-title{
+     margin-right: 5px;
+ }
+ .bathroom-title{
+  margin-right: 5px;
+
+ }
+ .more-project{
+  margin-right: 5px;
+ }
+ 
+ main{
+ 
+ width: 100%;
+ margin-left: 25px;
+ 
+ }
+ 
+ p{
+ width: 85%;
+ margin-top: 8px;
+ 
+ }
+ 
+ .kitchen-images{
+     width: 82%;
+ }
+ .bathroom-images{
+  width: 83%;
+ }
+ 
+ #btn-backto-top{
+     margin-right: 105px;
+ }
+ 
+ hr{
+     margin-right: 75px;
+ }
+ .title-forms{
+     margin-right: 85px;
+ }
+ form{
+ flex-wrap: wrap;
+ margin-right: 20px;
+ }
+ .group-box-one .name-address{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ 
+ .Schedule-btn button{
+ margin-left: 15px;
+ width: 250px;
+ }
+ 
+ #msg{
+ width: 260px;
+ margin-left: 5px;
+ }
+ .Schedule-btn-one button {
+     width: 250px;
+     margin-right: 5px;
+ }
+ .number-email{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ .group-box-two textarea{
+   margin-right: 5px;
+ 
+ }
+ 
+ .more-project-kitchen{
+     margin-right: 55px;
+ }
+ 
+ .border-line{
+     margin-right: 5px;
+ }
+ 
+ 
+ }
