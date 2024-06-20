@@ -131,19 +131,23 @@
     top: 155px;
   }
 
+  #cards-viewProjects section{
+    margin-top: 35px;
+  }
   .testimonials {
+   
     position: relative;
     top: 155px;
   }
 
-  .client-testimonials {
-    position: relative;
-    top: 155px;
-
+  .card-testimonials{
+    margin-top: 100px;
   }
+
+ 
 
   .card-content-testimonials {
-    margin-top: 15px;
+    margin-top: 85px;
   }
 
   footer {
@@ -300,30 +304,47 @@
 
   .viewProjects {
     position: relative;
-    top: 405px;
+    top: 305px;
   }
 
+  .card-two-viewProjects{
+    margin-top: 15px;
+  }
+
+  .card-three-viewProjects{
+    margin-top: 15px;
+    margin-right: 20px;
+  }
+ 
   .testimonials {
     position: relative;
     top: 395px;
   }
 
+  .testimonials img{
+    display: none;
+  }
+
   .header-testimonials h1 {
     font-size: 35px;
     position: relative;
-    left: 45px;
+    right: 48px;
   }
 
   .header-testimonials small {
     font-size: 25px;
     position: relative;
-    left: 25px;
+    right: 25px;
   }
 
   .client-testimonials {
     position: relative;
-    top: 330px;
+    top: 630px;
 
+  }
+
+  #carousel-wrapper{
+    margin-top: 350px;
   }
 
   .card-content-testimonials {

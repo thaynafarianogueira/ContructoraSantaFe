@@ -754,7 +754,7 @@ font-size: max(25px, 1vw);
   align-items: flex-start;
   position: relative;
   top: 100px;
-  width: 300px;
+  width: 100px;
 
   background-color: #e8e6e6bf;
   margin-left: 15px;
@@ -762,11 +762,12 @@ font-size: max(25px, 1vw);
 
 .card-content-testimonials {
   position: relative;
-  top: -96px;
+  top: -100px;
+  left: 92px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 25px;
+  font-size: 20px;
 
 }
 
