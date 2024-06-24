@@ -54,7 +54,6 @@ function submitFormsClick() {
   })
 }
 
-
 $(() => {
   $("a#whatsapp").click(() => {
     window.location.href = 'https://wa.me/16194550669';
@@ -75,6 +74,26 @@ $(() => {
     $carouselContainer.css('transform', 'translateX(' + offset + 'px)');
   }
 
+  function resizeCarousel() {
+    var containerWidth = $('#carousel').width();
+
+    if (containerWidth < 768) {
+      itemsPerView = 1;
+    } else if (containerWidth < 1024) {
+      itemsPerView = 2;
+    } else {
+      itemsPerView = 3;
+    }
+
+    itemWidth = containerWidth / itemsPerView;
+
+    $items.each(function () {
+      $(this).width(itemWidth);
+    });
+
+    updateCarousel();
+  }
+
   $('#next').click(function () {
     if (currentIndex < $items.length - itemsPerView) {
       currentIndex++;
@@ -93,6 +112,9 @@ $(() => {
     updateCarousel();
   });
 
-  updateCarousel();
+  $(window).resize(function () {
+    resizeCarousel();
+  });
 
+  resizeCarousel();
 })
