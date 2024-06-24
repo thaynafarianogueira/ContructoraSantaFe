@@ -144,10 +144,11 @@
             <p><img src="icons/phoneIcon.png" alt=""> +1 (619) 455-0669</p>
 
             <p>
-                <img src="icons/mailIcon.png" alt=""> caesar@santafecon.com <br>
+                <img src="icons/mailIcon.png" alt=""> caesar@santafe-companies.com <br>
+                
 
             </p>
-            <p>info@santafecon.com</p>
+            <p>info@santafe-companies.com</p>
 
             <h2>Connect With Us:</h2>
             <div class="icons">
@@ -183,7 +184,7 @@
                 
                     <ul class="footer-list">
                     <li>
-                        <h3>SANTA FE CONSTRUCTORA</h3>
+                        <h3>SANTA FE COMPANIES</h3>
                         <p>Lic. 1107963</p>
                     </li>
                     <li>
