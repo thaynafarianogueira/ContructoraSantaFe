@@ -139,7 +139,7 @@
 
         <aside>
 
-            <h1>SANTA FE CONSTRUCTORA</h1>
+            <h1>SANTA FE COMPANIES</h1>
             <small>Lic. 1107963</small>
             <p><img src="icons/phoneIcon.png" alt=""> +1 (619) 455-0669</p>
 

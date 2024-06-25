@@ -141,13 +141,43 @@
   }
 
   .card-testimonials{
+   
+     position: relative;
+     right: 150px;
     margin-top: 100px;
+  
+ 
   }
 
- 
+  #carousel {
+    overflow: hidden;
+    width: 100%;
+  }
+  .carousel-container {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  .carousel-item {
+   
+    box-sizing: border-box;
+    padding-left: 150px;
+    text-align: center;
+    flex: 1 0 33.3333%; /* Para 3 itens por vez */
+  }
+  
+  #carousel-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
 
   .card-content-testimonials {
-    margin-top: 85px;
+    width: 300px;
+    margin-top: 55px;
+    margin-left: 50px;
+    padding-right: 550px;
+    
   }
 
   footer {
@@ -348,11 +378,22 @@
   }
 
   .card-content-testimonials {
+    width: 100px;
     margin-top: 15px;
+    margin-left: 65px;
+    padding-right: 350px;
+    position: relative;
+    right: 525px;
+    
   }
 
   .card-testimonials {
+   
     margin-top: 25px;
+  }
+
+  .carousel-item {
+
   }
 
   footer {
