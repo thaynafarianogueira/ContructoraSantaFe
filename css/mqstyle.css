@@ -340,12 +340,26 @@
   .card-two-viewProjects{
     margin-top: 15px;
   }
+  .card-one-viewProjects a{
+    color: white;
+    text-decoration: none;
 
+  }
   .card-three-viewProjects{
     margin-top: 15px;
     margin-right: 20px;
   }
+  .card-two-viewProjects a{
+    color: white;
+    text-decoration: none;
+
+  }
  
+  .card-three-viewProjects a{
+    color: white;
+    text-decoration: none;
+
+  }
   .testimonials {
     position: relative;
     top: 395px;
@@ -353,6 +367,11 @@
 
   .testimonials img{
     display: none;
+  }
+
+  .mobile-carousel{
+    position: relative;
+    left: 140px;
   }
 
   .header-testimonials h1 {
@@ -381,7 +400,7 @@
     width: 100px;
     margin-top: 15px;
     margin-left: 65px;
-    padding-right: 350px;
+    padding-right: 500px;
     position: relative;
     right: 525px;
     

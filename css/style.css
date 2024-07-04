@@ -613,12 +613,15 @@ font-size: max(25px, 1vw);
   margin-top: 15px;
 }
 
-.viewProject{
+.viewProject {
   text-align: center;
   margin: 25px;
   font-size: 2rem;
   font-weight: 200;
   font-family: Lora-regular;
+  color: white;
+  text-decoration: none;
+  font-style: none;
 }
 
 .arrows{
@@ -642,6 +645,7 @@ font-size: max(25px, 1vw);
   margin-top: 15px;
   margin-bottom: 35px;
 
+
 }
 
 .card-one-viewProjects {
@@ -656,6 +660,21 @@ font-size: max(25px, 1vw);
 
 }
 
+.card-one-viewProjects a{
+  color: white;
+  text-decoration: none;
+
+}
+.card-three-viewProjects a{
+  color: white;
+  text-decoration: none;
+  
+}
+.card-two-viewProjects a{
+  color: white;
+  text-decoration: none;
+
+}
 .card-two-viewProjects {
   width: 300px;
   height: 300px;
@@ -684,12 +703,19 @@ font-size: max(25px, 1vw);
   margin: 15px;
   margin-top: 50px;
   color: rgb(255, 251, 251);
+  text-decoration: none;
+  font-style: none;
   font-size: 25px;
 
 }
 
+
 .content-card-viewProjects h1{
   margin-right: 80px;
+  color: white;
+  text-decoration: none;
+ 
+  
 }
 
 .header-testimonials h1{
@@ -760,6 +786,7 @@ font-size: max(25px, 1vw);
   background-color: #e8e6e6bf;
   margin-left: 15px;
 }
+
 
 .card-content-testimonials {
   position: relative;
