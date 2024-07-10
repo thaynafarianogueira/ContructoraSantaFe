@@ -18,18 +18,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $msg = $_POST['msg'];
 
         //Server settings
-        $mail->SMTPDebug = 0;  // Desativa a saída de debug
-        $mail->isSMTP();                                            //Send using SMTP
-        $mail->Host = 'smtp.gmail.com';                       //Set the SMTP server to send through
-        $mail->SMTPAuth = true;                                   //Enable SMTP authentication
-        $mail->Username = 'caesar@santafe-companies.com';                     //SMTP username
-        $mail->Password = 'Santafe963';                               //SMTP password
+        $mail->SMTPDebug = $_ENV['MAILER_IS_DEBUG'];                                          // Desativa a saída de debug
+        $mail->isSMTP();                                               //Send using SMTP
+        $mail->Host = $_ENV['MAILER_HOST'];                            //Set the SMTP server to send through
+        $mail->SMTPAuth = true;                                        //Enable SMTP authentication
+        $mail->Username = $_ENV['MAILER_USERNAME'];                    //SMTP username
+        $mail->Password = $_ENV['MAILER_PASSWORD'];                    //SMTP password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;            //Enable implicit TLS encryption
-        $mail->Port = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+        $mail->Port = $_ENV['MAILER_PORT'];                            //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
         //Recipients
         $mail->setFrom('caesar@santafe-companies.com', 'Contact Us Form');
-        $mail->addAddress('caesar@santafe-companies.com', 'Customer ' . $name);     //Add a recipient
+        $mail->addAddress('caesar@santafe-companies.com', 'Customer ' . $name);     //Add a recipient (To:)
 
         //Content
         $mail->isHTML(true);                                  //Set email format to HTML
