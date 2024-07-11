@@ -157,6 +157,13 @@
     display: flex;
     transition: transform 0.5s ease;
   }
+ 
+
+  .carousel-item {
+    position: relative;
+    right: 180px;
+
+  }
   .carousel-item {
    
     box-sizing: border-box;
@@ -171,7 +178,10 @@
     justify-content: center;
     width: 100%;
   }
-
+.mobile-card{
+  position: relative;
+  left: 120px;
+}
   .card-content-testimonials {
     width: 300px;
     margin-top: 55px;
@@ -412,6 +422,8 @@
   }
 
   .carousel-item {
+    position: relative;
+    right: 50px;
 
   }
 
