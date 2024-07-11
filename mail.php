@@ -6,6 +6,10 @@ use PHPMailer\PHPMailer\Exception;
 require 'vendor/autoload.php';
 require 'helper.php';
 
+ini_set( 'display_errors', 1 );
+error_reporting( E_ALL );
+$_ENV = getenv();
+
 $mail = new PHPMailer(true);
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
