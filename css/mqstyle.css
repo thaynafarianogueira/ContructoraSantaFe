@@ -157,7 +157,9 @@
     display: flex;
     transition: transform 0.5s ease;
   }
- 
+
+  
+
 
   .carousel-item {
     position: relative;
@@ -381,8 +383,10 @@
 
   .mobile-carousel{
     position: relative;
-    left: 140px;
+    left:30px;
   }
+
+
 
   .header-testimonials h1 {
     font-size: 35px;
@@ -423,7 +427,7 @@
 
   .carousel-item {
     position: relative;
-    right: 50px;
+    right:50px ;
 
   }
 
