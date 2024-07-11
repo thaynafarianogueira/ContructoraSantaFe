@@ -60,7 +60,7 @@ $(() => {
   })
 
   $("a#scheduleInitialCall").click(() => {
-    window.location.href = 'tel:16194550669';
+    window.location.href = 'tel:+16194550669';
   })
 
   var $carouselContainer = $('#carousel .carousel-container');
