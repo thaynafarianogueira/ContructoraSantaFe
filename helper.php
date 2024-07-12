@@ -1,4 +1,8 @@
 <?php
+require __DIR__ . '/vendor/autoload.php'; // Adjust the path to autoload.php as needed
+
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
 function validate() {
     if(empty($_POST['fullName'])
     || empty($_POST['yourAddress'])
