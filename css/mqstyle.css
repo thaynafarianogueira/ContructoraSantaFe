@@ -158,8 +158,9 @@
     transition: transform 0.5s ease;
   }
 
-  
-
+ .tablet-mq {
+  padding-left: 50px;
+ }
 
   .carousel-item {
     position: relative;
