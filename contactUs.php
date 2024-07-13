@@ -132,7 +132,7 @@
             </div>
             <div class="Schedule-btn">
                 <button>
-                    <a href="javascript:submitFormsClick()">Send Your Information</a>
+                    <a id="scheduleInitialCall" href="#">Send Your Information</a>
                 </button>
             </div>
         </form>
