@@ -132,7 +132,7 @@
             </div>
             <div class="Schedule-btn">
                 <button>
-                    <a id="scheduleInitialCall" href="#">Send Your Information</a>
+                    <a href="javascript:submitFormsClick()">Send Your Information</a>
                 </button>
             </div>
         </form>
@@ -158,7 +158,7 @@
 
             <div class="call-btn">
                 <button type="button">
-                    <a href="#">Schedule initial Call Now</a>
+                    <a id="scheduleInitialCall" href="#">Schedule initial Call Now</a>
                 </button>
             </div>
         </aside>
