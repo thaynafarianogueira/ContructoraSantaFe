@@ -158,7 +158,7 @@
 
             <div class="call-btn">
                 <button type="button">
-                    <a href="#">Schedule initial Call Now</a>
+                    <a id="scheduleInitialCall" href="#">Schedule initial Call Now</a>
                 </button>
             </div>
         </aside>
