@@ -74,9 +74,9 @@ $(() => {
     if (width >= 1024) {
       return 3;
     } if(width >= 769) {
-      return 1;
-    } else {
       return 2;
+    } else {
+      return 1;
     }
   }
 
