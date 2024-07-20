@@ -131,66 +131,48 @@
     top: 155px;
   }
 
-  #cards-viewProjects section{
+  #cards-viewProjects section {
     margin-top: 35px;
   }
+
   .testimonials {
-   
+
     position: relative;
     top: 155px;
-  }
-
-  .card-testimonials{
-   
-     position: relative;
-     right: 150px;
-    margin-top: 100px;
-  
- 
   }
 
   #carousel {
     overflow: hidden;
     width: 100%;
   }
+
   .carousel-container {
     display: flex;
     transition: transform 0.5s ease;
   }
 
- .tablet-mq {
-  padding-left: 50px;
- }
-
-  .carousel-item {
-    position: relative;
-    right: 180px;
-
+  .tablet-mq {
+    padding-left: 50px;
   }
-  .carousel-item {
-   
-    box-sizing: border-box;
-    padding-left: 150px;
-    text-align: center;
-    flex: 1 0 33.3333%; /* Para 3 itens por vez */
-  }
-  
+
   #carousel-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
   }
-.mobile-card{
-  position: relative;
-  left: 120px;
-}
+
+  .mobile-card {
+    position: relative;
+    left: 120px;
+  }
+
   .card-content-testimonials {
     width: 300px;
     margin-top: 55px;
     margin-left: 50px;
     padding-right: 550px;
-    
+
   }
 
   footer {
@@ -350,41 +332,45 @@
     top: 305px;
   }
 
-  .card-two-viewProjects{
+  .card-two-viewProjects {
     margin-top: 15px;
   }
-  .card-one-viewProjects a{
+
+  .card-one-viewProjects a {
     color: white;
     text-decoration: none;
 
   }
-  .card-three-viewProjects{
+
+  .card-three-viewProjects {
     margin-top: 15px;
     margin-right: 20px;
   }
-  .card-two-viewProjects a{
+
+  .card-two-viewProjects a {
     color: white;
     text-decoration: none;
 
   }
- 
-  .card-three-viewProjects a{
+
+  .card-three-viewProjects a {
     color: white;
     text-decoration: none;
 
   }
+
   .testimonials {
     position: relative;
     top: 395px;
   }
 
-  .testimonials img{
+  .testimonials img {
     display: none;
   }
 
-  .mobile-carousel{
+  .mobile-carousel {
     position: relative;
-    left:30px;
+    left: 30px;
   }
 
 
@@ -407,7 +393,7 @@
 
   }
 
-  #carousel-wrapper{
+  #carousel-wrapper {
     margin-top: 350px;
   }
 
@@ -418,17 +404,6 @@
     padding-right: 500px;
     position: relative;
     right: 525px;
-    
-  }
-
-  .card-testimonials {
-   
-    margin-top: 25px;
-  }
-
-  .carousel-item {
-    position: relative;
-    right:50px ;
 
   }
 

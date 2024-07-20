@@ -64,57 +64,49 @@ $(() => {
   })
 
   var $carouselContainer = $('#carousel .carousel-container');
-  var $items = $carouselContainer.children('.carousel-item');
-  var itemWidth = $items.outerWidth(true);
-  var itemsPerView = 3;
   var currentIndex = 0;
 
-  function updateCarousel() {
-    var offset = -currentIndex * itemWidth;
-    $carouselContainer.css('transform', 'translateX(' + offset + 'px)');
+  const items = $('.carousel-item');
+  const itemCount = items.length;
+
+  function updateItemsToShow() {
+    const width = $(window).width();
+    if (width >= 1024) {
+      return 3;
+    } if(width >= 769) {
+      return 1;
+    } else {
+      return 2;
+    }
   }
 
-  function resizeCarousel() {
-    var containerWidth = $('#carousel').width();
-
-    if (containerWidth < 768) {
-      itemsPerView = 1;
-    } else if (containerWidth < 1024) {
-      itemsPerView = 2;
-    } else {
-      itemsPerView = 3;
-    }
-
-    itemWidth = containerWidth / itemsPerView;
-
-    $items.each(function () {
-      $(this).width(itemWidth);
-    });
-
-    updateCarousel();
+  function showItem(index) {
+    const itemsToShow = updateItemsToShow();
+    const offset = -index * (100 / itemsToShow);
+    $('.carousel-inner').css('transform', `translateX(${offset}%)`);
   }
 
-  $('#next').click(function () {
-    if (currentIndex < $items.length - itemsPerView) {
-      currentIndex++;
-    } else {
-      currentIndex = 0; // Loop para o início
+  $('.next').click(function () {
+    const itemsToShow = updateItemsToShow();
+    currentIndex = (currentIndex + itemsToShow) % itemCount;
+    if (currentIndex + itemsToShow > itemCount) {
+      currentIndex = itemCount - itemsToShow;
     }
-    updateCarousel();
+    showItem(currentIndex);
   });
 
-  $('#prev').click(function () {
-    if (currentIndex > 0) {
-      currentIndex--;
-    } else {
-      currentIndex = $items.length - itemsPerView; // Loop para o final
+  $('.prev').click(function () {
+    const itemsToShow = updateItemsToShow();
+    currentIndex = (currentIndex - itemsToShow + itemCount) % itemCount;
+    if (currentIndex < 0) {
+      currentIndex = 0;
     }
-    updateCarousel();
+    showItem(currentIndex);
   });
 
   $(window).resize(function () {
-    resizeCarousel();
+    showItem(currentIndex);
   });
 
-  resizeCarousel();
+  showItem(currentIndex);
 })
