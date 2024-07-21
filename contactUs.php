@@ -48,7 +48,7 @@
                 </div>
             </div>
             <a href="aboutUs.html">ABOUT US</a>
-            <a href="projects.html">PROJECTS</a>
+
             <a href="contactUs.php">CONTACT US</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
@@ -61,7 +61,7 @@
 
 
             <button id="btn-quote-header"><a href="contactUs.php">GET A QUOTE</a></button>
-            <button id="btn-project-header"><a href="projects.html">VIEW PROJECTS</a> </button>
+
         </div>
 
     </header>
