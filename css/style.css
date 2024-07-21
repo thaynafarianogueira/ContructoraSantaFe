@@ -961,6 +961,7 @@ footer {
   .carousel-item {
     flex: 0 0 100%;
     width: 50%;
+    margin: 10px;
   }
 
 }
