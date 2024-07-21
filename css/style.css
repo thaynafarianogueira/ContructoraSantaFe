@@ -951,9 +951,13 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
   }
-   .header-testimonials{
+   .testimonials{
     text-align: center;
     margin: 20px;
+   }
+
+   .header-testimonials h1{
+    margin-left: 85px;
    }
   .card-testimonials {
     min-width: 100% !important;
